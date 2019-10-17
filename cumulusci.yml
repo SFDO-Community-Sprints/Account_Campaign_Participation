@@ -1,0 +1,23 @@
+minimum_cumulusci_version: '3.0.0'
+project:
+    name: Account_Campaign_Participation
+    package:
+        name:  Account Campaign Participation
+        api_version: '46.0'
+
+tasks:
+    robot:
+        options:
+            suites: robot/Account_Campaign_Participation/tests
+            options:
+                outputdir: robot/Account_Campaign_Participation/results
+
+    robot_testdoc:
+        options:
+            path: robot/Account_Campaign_Participation/tests
+            output: robot/Account_Campaign_Participation/doc/Account_Campaign_Participation_tests.html
+
+flows:
+    config_qa:
+        1.1:
+            task: deploy_qa_config
