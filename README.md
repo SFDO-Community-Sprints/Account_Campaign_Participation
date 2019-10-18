@@ -13,6 +13,7 @@ Gabriel Ehri
 Beth Saunders
 Adam Kramer
 Megan Pietruszka
+Matthew Poe
 
 ### Project Vision (Your first task as a team)
 Allow users to track engagement via a Campaign with Organization Accounts.
